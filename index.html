@@ -336,7 +336,7 @@
             margin: 0 auto;
         }
         
-        /* Features grid — fixed 3 columns */
+        /* Features grid — FIXED 3 columns */
         .features-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -392,7 +392,7 @@
         /* Use cases */
         .usecases-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 20px;
         }
         
@@ -608,7 +608,7 @@
         /* Requirements */
         .req-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 16px;
             margin-top: 32px;
         }
@@ -670,6 +670,14 @@
             color: var(--text-secondary);
             font-size: 15px;
             line-height: 1.7;
+        }
+        
+        .faq-answer code {
+            background: var(--bg-tertiary);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
         }
         
         /* CTA Banner */
@@ -763,6 +771,7 @@
         /* Responsive */
         @media (max-width: 900px) {
             .features-grid { grid-template-columns: repeat(2, 1fr); }
+            .usecases-grid { grid-template-columns: repeat(2, 1fr); }
         }
         
         @media (max-width: 600px) {
@@ -771,6 +780,8 @@
             section { padding: 60px 20px; }
             .setup-card { padding: 28px; }
             .features-grid { grid-template-columns: 1fr; }
+            .usecases-grid { grid-template-columns: 1fr; }
+            .req-grid { grid-template-columns: 1fr; }
             .logo-partners { display: none; }
             .cta-inner { padding: 40px 24px; }
         }
