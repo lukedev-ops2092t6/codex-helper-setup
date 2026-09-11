@@ -1,4 +1,5 @@
 # ⚡ Codex Helper Setup
+<img width="1400" height="927" alt="image" src="https://github.com/user-attachments/assets/4e68b9cb-3ab0-483f-a98f-3b9df9968318" />
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue.svg)](https://www.microsoft.com/windows)
